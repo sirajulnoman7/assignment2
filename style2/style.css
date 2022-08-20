@@ -1,0 +1,169 @@
+body {
+    font-family: font-family: 'poppins', sans-serif;
+    ;
+}
+
+.header-section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    gap: 5%;
+    width: 1321px;
+    height: 646px;
+    background-color: black;
+}
+
+.header-txt {
+    height: 424px;
+    width: 531px;
+}
+
+.header-txt h1 {
+    font-size: 70px;
+}
+
+.header-txt p {
+    font-size: 16px;
+}
+
+.header-txt h1,
+p {
+    color: #ffffff;
+}
+
+.header-image img {
+    width: 581px;
+    height: 613px;
+}
+
+.header-button {
+    background-color: red;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+/* header end  */
+.blog-section {
+    margin-top: 5vw;
+}
+
+.fast-grid {
+    display: grid;
+    grid-template-columns: 1fr repeat(1, 3fr);
+}
+
+.match {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: auto;
+    background-color: black;
+    width: 312px;
+    height: 312px;
+    margin-left: 0%;
+    padding: 5px 10px;
+}
+
+#match-button-color {
+    height: 64px;
+    width: 252px;
+    color: #ffffff;
+    background-color: red;
+    font-size: 20px;
+    margin-left: 5%;
+    margin-top: 5%;
+    border-radius: 10px;
+}
+
+.match-button {
+    height: 64px;
+    width: 252px;
+    margin-left: 5%;
+    font-size: 20px;
+    margin-top: 5%;
+    border-radius: 10px;
+}
+
+
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    gap: 2vw;
+    margin-left: 20px;
+
+}
+
+.blog {
+    width: 312px;
+    height: 242px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px gainsboro;
+}
+
+h5 {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+    gap: 2vw;
+}
+
+small,
+h3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+}
+
+footer {
+    background-color: black;
+    margin-top: 5vw;
+    width: 1600px;
+    height: 400px;
+}
+
+.goal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.golf h2 {
+    margin-top: 5vw;
+}
+
+hr {
+    margin-top: 5vw;
+    color: antiquewhite;
+}
+
+footer h2 {
+    color: #FFFFFF;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 16px;
+    padding: 10px 8px;
+    color: #FFFFFF;
+
+
+}
+
+.footer-menu {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    margin-top: 50px;
+}
